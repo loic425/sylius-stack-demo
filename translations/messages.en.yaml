@@ -1,0 +1,29 @@
+app:
+    ui:
+        archival: Archival
+        author: Author
+        author_name: Author name
+        avatar: Avatar
+        biz: Biz
+        book: Book
+        books: Books
+        company_name: Company name
+        conference: Conference
+        conferences: Conferences
+        configuration: Configuration
+        ends_at: Ends at
+        first_name: First name
+        last_name: Last name
+        library: Library
+        name: Name
+        past_event: Past event
+        show_talks: Show talks
+        speaker: Speaker
+        speakers: Speakers
+        starts_at: Starts at
+        talk: Talk
+        talks: Talks
+        tech_one: Tech#1
+        tech_two: Tech#2
+        title: Title
+        track: Track
