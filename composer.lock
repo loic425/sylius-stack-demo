@@ -2894,23 +2894,23 @@
         },
         {
             "name": "sylius/admin-ui",
-            "version": "v0.5.0",
+            "version": "v0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sylius/AdminUi.git",
-                "reference": "63c56595df8e5e7711edfd82c52f6e37c49a5545"
+                "reference": "00e0a36a00966804b3834327296dc5729e2500d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sylius/AdminUi/zipball/63c56595df8e5e7711edfd82c52f6e37c49a5545",
-                "reference": "63c56595df8e5e7711edfd82c52f6e37c49a5545",
+                "url": "https://api.github.com/repos/Sylius/AdminUi/zipball/00e0a36a00966804b3834327296dc5729e2500d8",
+                "reference": "00e0a36a00966804b3834327296dc5729e2500d8",
                 "shasum": ""
             },
             "require": {
                 "knplabs/knp-menu-bundle": "^3.0",
                 "php": "^8.1",
                 "sylius/resource-bundle": "^1.11",
-                "sylius/twig-hooks": "^0.5",
+                "sylius/twig-hooks": "^0.5.1",
                 "symfony/http-kernel": "^6.4 || ^7.0",
                 "symfony/security-bundle": "^6.4 || ^7.0",
                 "symfony/security-http": "^6.4 || ^7.0",
@@ -2953,32 +2953,32 @@
             "description": "Minimalist generic templates and routes for your admin panels",
             "support": {
                 "issues": "https://github.com/Sylius/AdminUi/issues",
-                "source": "https://github.com/Sylius/AdminUi/tree/v0.5.0"
+                "source": "https://github.com/Sylius/AdminUi/tree/v0.5.1"
             },
-            "time": "2024-10-29T11:23:28+00:00"
+            "time": "2024-11-10T13:22:33+00:00"
         },
         {
             "name": "sylius/bootstrap-admin-ui",
-            "version": "v0.5.0",
+            "version": "v0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sylius/BootstrapAdminUi.git",
-                "reference": "877fcdc5f8d3745a72b594628d320cac91c1d46d"
+                "reference": "ad0887409945114ba23507b3edad91b086b028f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sylius/BootstrapAdminUi/zipball/877fcdc5f8d3745a72b594628d320cac91c1d46d",
-                "reference": "877fcdc5f8d3745a72b594628d320cac91c1d46d",
+                "url": "https://api.github.com/repos/Sylius/BootstrapAdminUi/zipball/ad0887409945114ba23507b3edad91b086b028f2",
+                "reference": "ad0887409945114ba23507b3edad91b086b028f2",
                 "shasum": ""
             },
             "require": {
                 "pagerfanta/twig": "^4.6",
                 "php": "^8.1",
-                "sylius/admin-ui": "^0.5",
+                "sylius/admin-ui": "^0.5.1",
                 "sylius/grid-bundle": "^1.13",
                 "sylius/resource-bundle": "^1.11",
-                "sylius/twig-extra": "^0.5",
-                "sylius/twig-hooks": "^0.5",
+                "sylius/twig-extra": "^0.5.1",
+                "sylius/twig-hooks": "^0.5.1",
                 "symfony/asset": "^6.4 || ^7.0",
                 "symfony/http-kernel": "^6.4 || ^7.0",
                 "symfony/security-bundle": "^6.4 || ^7.0",
@@ -3015,9 +3015,9 @@
             "description": "Build your Bootstrap admin panels with Sylius and Symfony UX",
             "support": {
                 "issues": "https://github.com/Sylius/BootstrapAdminUi/issues",
-                "source": "https://github.com/Sylius/BootstrapAdminUi/tree/v0.5.0"
+                "source": "https://github.com/Sylius/BootstrapAdminUi/tree/v0.5.1"
             },
-            "time": "2024-10-29T11:23:28+00:00"
+            "time": "2024-11-10T13:22:33+00:00"
         },
         {
             "name": "sylius/grid-bundle",
@@ -3338,7 +3338,7 @@
         },
         {
             "name": "sylius/twig-extra",
-            "version": "v0.5.0",
+            "version": "v0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sylius/TwigExtra.git",
@@ -3401,22 +3401,22 @@
             "description": "Additional Twig extensions for your Symfony projects",
             "support": {
                 "issues": "https://github.com/Sylius/TwigExtra/issues",
-                "source": "https://github.com/Sylius/TwigExtra/tree/v0.5.0"
+                "source": "https://github.com/Sylius/TwigExtra/tree/v0.5.1"
             },
             "time": "2024-10-29T11:23:28+00:00"
         },
         {
             "name": "sylius/twig-hooks",
-            "version": "v0.5.0",
+            "version": "v0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sylius/TwigHooks.git",
-                "reference": "4985e3eaa0a8ca8ac9f967d57dd2c7d7126b45ac"
+                "reference": "00030b35b48a1bd42a86853a8386111179ce3e61"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sylius/TwigHooks/zipball/4985e3eaa0a8ca8ac9f967d57dd2c7d7126b45ac",
-                "reference": "4985e3eaa0a8ca8ac9f967d57dd2c7d7126b45ac",
+                "url": "https://api.github.com/repos/Sylius/TwigHooks/zipball/00030b35b48a1bd42a86853a8386111179ce3e61",
+                "reference": "00030b35b48a1bd42a86853a8386111179ce3e61",
                 "shasum": ""
             },
             "require": {
@@ -3480,13 +3480,13 @@
             ],
             "description": "Composable Twig layouts",
             "support": {
-                "source": "https://github.com/Sylius/TwigHooks/tree/v0.5.0"
+                "source": "https://github.com/Sylius/TwigHooks/tree/v0.5.1"
             },
-            "time": "2024-10-29T11:23:28+00:00"
+            "time": "2024-11-10T12:59:53+00:00"
         },
         {
             "name": "sylius/ui-translations",
-            "version": "v0.5.0",
+            "version": "v0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sylius/UiTranslations.git",
@@ -3532,7 +3532,7 @@
             "description": "Basic UI translations",
             "support": {
                 "issues": "https://github.com/Sylius/UiTranslations/issues",
-                "source": "https://github.com/Sylius/UiTranslations/tree/v0.5.0"
+                "source": "https://github.com/Sylius/UiTranslations/tree/v0.5.1"
             },
             "time": "2024-10-29T11:23:28+00:00"
         },
