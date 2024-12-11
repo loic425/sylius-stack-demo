@@ -1,8 +1,2 @@
-sylius_twig_hooks:
-    hooks:
-        'sylius_admin.common.component.sidebar':
-            logo:
-                template: 'shared/crud/common/sidebar/logo.html.twig'
-        'sylius_admin.security.login':
-            logo:
-                template: 'security/common/logo.html.twig'
+imports:
+    - { resource: '../sylius/twig_hooks/**/**.php' }

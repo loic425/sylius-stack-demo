@@ -36,9 +36,25 @@ final class AdminMenuBuilder implements MenuBuilderInterface
             ->setLabelAttribute('icon', 'dashboard')
         ;
 
+        $this->addLibrarySubMenu($menu);
+
         $this->addConfigurationSubMenu($menu);
 
         return $menu;
+    }
+
+    private function addLibrarySubMenu(ItemInterface $menu): void
+    {
+        $library = $menu
+            ->addChild('library')
+            ->setLabel('app.ui.library')
+            ->setLabelAttribute('icon', 'dashboard')
+            ->setExtra('always_open', true)
+        ;
+
+        $library->addChild('books', ['route' => 'app_admin_book_index'])
+            ->setLabel('app.ui.books')
+        ;
     }
 
     private function addConfigurationSubMenu(ItemInterface $menu): void

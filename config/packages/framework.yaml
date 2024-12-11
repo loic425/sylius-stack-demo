@@ -9,6 +9,11 @@ framework:
     #esi: true
     #fragments: true
 
+    http_client:
+        scoped_clients:
+            book.client:
+                base_uri: 'https://potterapi-fedeperin.vercel.app'
+
 when@test:
     framework:
         test: true
